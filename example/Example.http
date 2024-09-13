@@ -1,0 +1,11 @@
+### Just testing...
+GET http://localhost:8000/get_data_from_db HTTP/1.1
+
+### GET 1-second service
+GET http://localhost:8001/one HTTP/1.1
+
+### GET 1-second with a half service
+GET http://localhost:8001/onepointfive HTTP/1.1
+
+### GET 3-second service
+GET http://localhost:8001/three HTTP/1.1
